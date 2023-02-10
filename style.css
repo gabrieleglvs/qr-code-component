@@ -16,25 +16,42 @@ body {
 }
 
 .qrcode-card {
+    box-sizing: border-box;
     text-align: center;
+    width: 420px;
+    background-color: #ffffff;
+    padding: 20px 20px 50px 20px;
+    border-radius: 20px;
+}
+
+.qrcode-card__imagem {
+    width: 100%;
+    border-radius: 10px;
 }
 
 .qrcode-card__titulo {
+    color: 	#1f3251;
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
+    font-size: 30px;
+    margin: 20px 10px 0 10px;
 }
 
 .qrcode-card__texto {
+    color: 	#7b879d;
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 20px;
+    margin: 20px 25px 0 25px;
 }
 
 .rodape {
     font-family: 'Outfit', sans-serif; 
     font-size: 11px; 
-    text-align: center; 
+    text-align: center;
+    margin-top: 35px; 
 }
 .rodape__link { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
 }
