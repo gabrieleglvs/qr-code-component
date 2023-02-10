@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #d6e2f0; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qrcode-card {
+    text-align: center;
+}
+
+.qrcode-card__titulo {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+}
+
+.qrcode-card__texto {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.rodape {
+    font-family: 'Outfit', sans-serif; 
+    font-size: 11px; 
+    text-align: center; 
+}
+.rodape__link { 
+    color: hsl(228, 45%, 44%); 
+}
